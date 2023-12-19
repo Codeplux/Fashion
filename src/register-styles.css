@@ -165,3 +165,27 @@ form {
 .sign-in-instead a{
     color: #000;
 }
+
+
+
+@media screen and (min-width: 400px){
+    .form-head .underHead-text{
+        font-size: 12px;
+        width: 100%;
+        margin:0px 10px 30px 10px ;
+        color:#858585;
+        font-weight: bold;
+        text-align: center;
+    }    
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        /* position: absolute; */
+        width: 300px;
+    }
+
+}   
