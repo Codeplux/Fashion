@@ -1,0 +1,199 @@
+/* Link to google fontsPoppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400, 500; 0,600; 0 &display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','roboto',sans-serif ;
+    font-size: 12px;
+}
+
+.logo-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-name{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 15px;
+    border-radius: 3px;
+    background-color: tr4;
+    color: #353535;
+}
+
+.form-head{
+    display: flex;
+    justify-content: space-between;
+    align-content: ce   nter;
+    flex-direction: row;
+}
+
+.form-head .underHead-text{
+    font-size: 12px;
+
+    margin:0px 10px 30px 10px ;
+    color:#858585;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .close-icon{
+    font-size: 20px;
+} */
+
+form {
+    width:auto;
+    position: relative;
+}
+
+.container span{
+    display: inline-block;
+    color:#000;
+    font-size: 12;
+    font-weight: bold;
+    border-left: 5px solid #5CD467;
+    padding: 10px 5px;
+    line-height: .2em;
+    text-transform: capitalize;
+}
+
+
+.container .input-box{
+    margin: 10px auto;
+}
+
+.container .box{
+    display: flex;
+}
+
+/* .container .box .icon{
+    color: #353535;
+    font-size: 1.4em;
+    font-weight: 500;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    min-width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 5%;
+    border: 1px solid #ffffff9e;
+} */
+
+.box input{
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    border: 2px solid #E1E1E1;
+    border-radius: 5px;
+    width: 90vw;
+    color: #7e7e7e;
+    font-weight: 500;
+    padding: 5px 10px;
+    /* ---------- */
+    background: rgba(255, 255, 255, 0.258);
+    background: transparent;
+}
+
+.box input:focus{
+    border: 2px solid #8585859a;
+    transition: border .3s;
+}
+
+
+#register{
+    outline: none;
+    margin-top: 20px;
+    background-color: #5CD467;
+    padding:5px 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    width:100%;
+}
+
+#register:hover{
+    background-color: #5cd468b4;
+    transition: all .3s;
+}
+
+#register:active{
+    background-color: #5cd468b4;
+    transition: all .3s;
+}
+
+.remember-me{
+    margin: 0 0 15px 0;
+}
+.forgot-password{
+    color:#7e7e7e; 
+    text-decoration: none;
+    margin-bottom: 30px;
+    /* font-weight: bold; */
+    border-left: 5px solid #5cd46870;
+    padding: 5px 5px;
+}
+
+.forgot-password:hover{
+    color: #000;
+}
+
+.remember-me{
+    margin-top: 20px;
+}
+
+.sign-in-instead{
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sign-in-instead a{
+    color: #000;
+    
+}
+
+
+
+
+@media screen and (min-width: 400px){
+    .form-head .underHead-text{
+        font-size: 12px;
+        width: 100%;
+        margin:0px 10px 30px 10px ;
+        color:#858585;
+        font-weight: bold;
+        text-align: center;
+    }    
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        /* position: absolute; */
+        width: 300px;
+    }
+
+}   
+  
