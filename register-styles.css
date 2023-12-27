@@ -16,6 +16,10 @@ body{
     align-items: center;
     background-color: #f7f7f9;
 }
+a{
+    text-decoration: none;
+    color: #5CD467;
+}
 
 
 .logo-container{
@@ -62,26 +66,15 @@ form {
     position: relative;
 }
 
-.container .input-box{
-    margin: 10px auto;
-}
-
-.container .box{
-    display: flex;
-}
-
 .box input{
     box-sizing: border-box;
     outline: none;
     margin: 0;
     border: 2px solid #E1E1E1;
     border-radius: 5px;
-    width: 90vw;
     color: #7e7e7e;
     font-weight: 500;
     padding: 5px 10px;
-    /* ---------- */
-    background: rgba(255, 255, 255, 0.258);
     background: transparent;
 }
 
@@ -95,12 +88,13 @@ form {
     outline: none;
     border: none;
     margin-top: 20px;
-    background-color: #5CD467;
+    background-color: #2ECC71;
     padding:5px 10px;
     font-weight: bold;
     color: white;
     font-size: 20px;
     border-radius: 5px;
+    cursor: pointer;
     width:100%;
 }
 
@@ -119,12 +113,12 @@ form {
     margin-top: 10px;
     text-align: center;
     margin-top: 20px;
+    color: #ACACAC;
 }
 
 .opposite-sign a{
-    color: #30a73c;
+    color: #2ECC71;
     text-transform: capitalize;
-    font-weight: bold;
 }
 
 .opposite-sign a:hover{
@@ -132,7 +126,7 @@ form {
 }
 
 
-@media screen and (min-width: 250px){
+@media screen and (min-width: 300px){
     .form-head .underHead-text{
         font-size: 12px;
         width: 100%;
@@ -148,8 +142,7 @@ form {
         align-items: center;
     }
     .container{
-        /* position: absolute; */
-        width: 350px;
+        width: 300px;
     }
 
 }   

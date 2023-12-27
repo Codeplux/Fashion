@@ -12,6 +12,7 @@
 </head>
 <body>
     <section class="header">
+
         <div class="logo-container">
             <img src="./images/login.png" class="logo" alt="logo">
             <span class="logo-name">Fashion</span>
@@ -21,7 +22,8 @@
         </div> -->
         <div class="nav-bar">
             <nav>
-                <ul class="nav-buttons">
+                <ul id="sidebar" class="nav-buttons">
+                    <!-- <a href="" onclick="closeSidebar()">&times; Close</a> -->
                     <li class="nav-btn"><a href="index.html">Home</a></li>
                     <li class="nav-btn"><a href="#">About</a></li>
                     <li class="nav-btn"><a href="#">Lorem</a></li>
@@ -33,8 +35,29 @@
         <a class="signIn-register" onclick="openPopup()" href="./register.html">Sign Up</a>   
         <a class="signIn-register" onclick="openPopup()" href="./login.html">Sign In</a>  
     </div>
+    <span id="menu-icon">&#9776;</span>
+
     </section>
 
 
+
+    <script>
+        function openSidebar() {
+      document.getElementById("sidebar").style.width = "250px";
+      document.getElementById("content").style.marginLeft = "250px";
+    }
+
+    function closeSidebar() {
+      document.getElementById("sidebar").style.width = "0";
+      document.getElementById("content").style.marginLeft = "0";
+    }
+
+    document.getElementById("menu-icon").addEventListener("click"), function() {
+      if (document.getElementById("sidebar").style.width === "250px") {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }}
+    </script>
 </body>
 </html>
